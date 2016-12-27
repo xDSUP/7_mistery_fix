@@ -1,7 +1,7 @@
 from math import sqrt
 
 
-def get_roots(a, b, c):
+def get_roots(a, b, c):# Получает корни квадратного уравнения и выводит их в консоль
     discriminant = b ** 2 - 4 * a * c
     if discriminant >= 0:
         root1 = (-b - sqrt(discriminant)) / (2 * a)
